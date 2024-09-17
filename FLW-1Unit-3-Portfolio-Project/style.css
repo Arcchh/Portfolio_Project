@@ -1,0 +1,237 @@
+/* Overall Config */
+html, body {
+  margin: 0;
+  height: 100%;
+}
+
+body {
+  background-image: url("Images/NYCDowntownBackground.jpg");
+}
+
+h1, p, a, li {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+
+li {
+  color: white;
+}
+
+@viewport {
+  width: device-width;
+  zoom: 1.0 ;
+}
+
+@-ms-viewport {
+  width: device-width;
+}
+
+/* Universal Header Config */
+header {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  background-color: black;
+}
+
+a {
+  margin-right: 30px;
+  font-size: 15px;
+}
+
+.headerDiv {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  margin-left: 25px;
+}
+
+/* Description Config [HOME PAGE] */
+.briefDescription {
+  /* Centers child items to the center */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* Size & Position*/
+  height: 50%;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-40%);
+  -ms-transform: translateY(-40%);
+  /* Transparency & Colors*/
+  background: rgb(18, 18, 18); 
+  background: rgba(18, 18, 18, 0.70);
+}
+
+/* <h1> tag */
+.welcome {
+  font-size: 175%;
+  color: white;
+  opacity: 100%;
+}
+
+/* <p> tag */
+.briefAboutMe {
+  font-size: 100%;
+  color: white;
+  margin: 30px;
+}
+
+/* <a> tag */
+.briefAboutLink {
+  font-size: 100%;
+  color: cyan;
+  margin: 0;
+}
+
+/* About Config [ABOUT PAGE] */
+.aboutMeDiv {
+  /* Centers child items to the center */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* Size & Position*/
+  height: 50%;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-40%);
+  -ms-transform: translateY(-40%);
+  /* Transparency & Colors*/
+  background: rgb(255, 255, 255); 
+  background: rgba(255, 255, 255, 0.70);
+    /* I think black looks cooler? */
+  background: rgb(18, 18, 18); 
+  background: rgba(18, 18, 18, 0.70);
+}
+
+/* <p> tag */
+.aboutMe {
+  color: white;
+  font-size: 20px;
+  margin-left: 10%;
+  margin-right: 10%;
+  line-height: 1.5;
+}
+
+/* Projects Config [PROTECTS PAGE] */
+.projectsDiv {
+  /* Centers child items to the center */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* Size & Position*/
+  height: 70%;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-40%);
+  -ms-transform: translateY(-40%);
+  /* Transparency & Colors*/
+  background: rgb(18, 18, 18); 
+  background: rgba(18, 18, 18, 0.70);
+}
+
+.moveArrowButton {
+  border: 2px solid #00ffff;
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background: rgba(0, 0, 0, 0);
+}
+
+.moveArrowButton:hover {
+  background: rgba(18, 18, 18, 0.70);
+  box-shadow: 0 0 4px 2px rgba(0, 255, 255, 0.5);
+}
+
+/* <a> tag */
+.githubRepo {
+  color: cyan;
+  text-align: center;
+  margin: 10px 0px 2px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* <div> tag */
+.imgContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.projectContainerDiv1 {
+  border: 2px solid #00ffff;
+  border-radius: 15px;
+  padding: 5px;
+  margin: 10px;
+  width: 20%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* <p> title tag */
+.imgTitle {
+  font-size: 20px;
+  margin: 5px 0px 5px;
+}
+
+/* <img> tag */
+.projectImgs {
+  border-radius: 12px;
+  width: 100%;
+  height: auto;
+}
+
+.projectImgs:hover {
+  box-shadow: 0 0 4px 2px rgba(0, 255, 255, 0.5);
+}
+
+/* <p> tag */
+.imgDescription {
+  margin: 5px 0px 0px;
+}
+
+/* Contact Config [CONTACT PAGE] */
+.contactDiv {
+  /* Centers child items to the center */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* Size & Position*/
+  height: 50%;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-40%);
+  -ms-transform: translateY(-40%);
+  /* Transparency & Colors*/
+  background: rgb(18, 18, 18); 
+  background: rgba(18, 18, 18, 0.70);
+}
+
+/* <a> tag */
+.contactAnchor {
+  font-size: 100%;
+  color: cyan;
+  margin: 0;
+}
+
+/* <p> tag */
+.pContact {
+  margin-top: 2.5px;
+  margin-bottom: 2.5px;
+}
